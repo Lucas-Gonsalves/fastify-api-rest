@@ -4,7 +4,7 @@
   "description": "A backend server was created using Fastify to learn about the framework and the development environment. Testing will be performed, and the project as a whole will be done to the best of my ability.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Lucas-Gonsalves/fastify-api-rest/issues"
   },
   "homepage": "https://github.com/Lucas-Gonsalves/fastify-api-rest#readme",
   "dependencies": {
+    "fastify": "^5.7.4",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "tsx": "^4.21.0"
   }
 }
