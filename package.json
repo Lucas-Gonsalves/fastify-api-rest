@@ -4,7 +4,8 @@
   "description": "A backend server was created using Fastify to learn about the framework and the development environment. Testing will be performed, and the project as a whole will be done to the best of my ability.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "lint:fix": "npx eslint . --fix"
   },
   "repository": {
     "type": "git",
