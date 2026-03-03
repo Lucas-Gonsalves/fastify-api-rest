@@ -1,0 +1,24 @@
+{
+  "name": "fastify-api-rest",
+  "version": "1.0.0",
+  "description": "A backend server was created using Fastify to learn about the framework and the development environment. Testing will be performed, and the project as a whole will be done to the best of my ability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Gonsalves/fastify-api-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lucas-Gonsalves/fastify-api-rest/issues"
+  },
+  "homepage": "https://github.com/Lucas-Gonsalves/fastify-api-rest#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
