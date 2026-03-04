@@ -35,3 +35,6 @@ Thumbs.db
 # temporários
 tmp/
 temp/
+
+#database
+tmp/app.db
