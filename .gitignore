@@ -37,4 +37,4 @@ tmp/
 temp/
 
 #database
-tmp/app.db
+app.db
