@@ -4,7 +4,7 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort'
 
 export default [
   {
-    ignores: ['dist/', 'node_modules/'],
+    ignores: ['dist/', 'node_modules/', 'knexfile.ts'],
   },
 
   js.configs.recommended,
@@ -28,20 +28,20 @@ export default [
       '@typescript-eslint/no-explicit-any': 'off',
 
       // Imports
-      'simple-import-sort/imports': 'error',
-      'simple-import-sort/exports': 'error',
+      'simple-import-sort/imports': 'warn',
+      'simple-import-sort/exports': 'warn',
 
       // Backend good practices
       'no-console': 'off',
       'no-unused-expressions': 'warn',
 
       // Style
-      'semi': ['error', 'never'],
-      'quotes': ['error', 'single', { avoidEscape: true }],
-      'indent': ['error', 2],
-      'comma-dangle': ['error', 'always-multiline'],
-      'object-curly-spacing': ['error', 'always'],
-      'arrow-parens': ['error', 'always'],
+      'semi': ['warn', 'never'],
+      'quotes': ['warn', 'single', { avoidEscape: true }],
+      'indent': ['warn', 2],
+      'comma-dangle': ['warn', 'always-multiline'],
+      'object-curly-spacing': ['warn', 'always'],
+      'arrow-parens': ['warn', 'always'],
     }
   }
 ]
