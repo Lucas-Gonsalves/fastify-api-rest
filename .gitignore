@@ -1,4 +1,4 @@
-# dependências
+# dependencies
 node_modules/
 
 # build
@@ -6,11 +6,11 @@ dist/
 build/
 *.tsbuildinfo
 
-# testes
+# tests
 coverage/
 .nyc_output/
 
-# variáveis de ambiente
+# environment variables
 .env
 .env.*
 !.env.example
@@ -23,7 +23,7 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# arquivos do sistema
+# system archives
 .DS_Store
 Thumbs.db
 
@@ -33,9 +33,9 @@ Thumbs.db
 !.vscode/settings.json
 .idea/
 
-# temporários
+# temps
 tmp/
 temp/
 
 #database
-app.db
+db/*.db

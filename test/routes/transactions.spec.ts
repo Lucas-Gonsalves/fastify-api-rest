@@ -81,7 +81,7 @@ describe('Transaction routes', () => {
     )
   })
 
-  it('should be able to list get the summary', async () => {
+  it('should be able to get the summary', async () => {
     const firstTransaction = await request(app.server)
       .post('/transactions')
       .send({ title: 'New transaction', amount: 5000, type: 'credit' })
